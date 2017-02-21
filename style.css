@@ -1,0 +1,41 @@
+.wrapper {
+    text-align: center;
+}
+
+img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 150px;
+}
+
+input {
+    display: block;
+    width: 503px;
+    height: 40px;
+    margin: 10px auto;
+    font-size: 18px;
+    box-shadow: 0 3px 3px 0px rgba(0, 0, 0, 0.15);
+    border: 1px solid #edeff2;
+    background: url(mic.png) no-repeat 465px;
+}
+
+button {
+    display: inline-block;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    font-family: arial,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    padding: 10px;
+    color: gray;
+    margin: 20px 10px;
+}
+
+button:hover {
+    border: 1px solid #cdd0d6;
+    color: black;
+}
+
+input:focus {
+    outline: 0;
+}
